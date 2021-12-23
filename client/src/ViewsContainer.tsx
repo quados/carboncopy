@@ -17,7 +17,10 @@ export const AuthenticatedViewsContainer: FunctionComponent = () => {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/create" element={<CreateCarbonCopy />} />
-        <Route path="/prediction/:hash" element={<OpenCarbonCopy />} />
+        <Route path="/prediction/:hash">
+          <Route path=":passphrase" element={<OpenCarbonCopy />} />
+          <Route path="" element={<OpenCarbonCopy />} />
+        </Route>
         {/* === Login ===
             <PrivateRoute path="/">
               <Redirect to="/login" />

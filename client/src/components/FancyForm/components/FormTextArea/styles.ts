@@ -33,7 +33,7 @@ export const FormTextAreaStyle = styled.textarea`
 
 export const FormTextAreaCount = styled.div`
   position: absolute;
-  bottom: 28px;
+  bottom: 42px;
   right: 12px;
   color: ${({ theme }) => theme.color.textLow};
   font-size: 0.75rem;
