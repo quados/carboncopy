@@ -24,6 +24,7 @@ export const SubmittedContainer = styled.div`
 export const SubmitTitle = styled.div`
   color: ${({ theme }) => theme.color.textHigh};
   font-size: 1rem;
+  user-select: none;
 `
 
 export const LinkStyle = styled.a`

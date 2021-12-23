@@ -10,6 +10,7 @@ export const FormComponentTitle = styled.div`
   height: 20px;
   margin-bottom: 5px;
   color: ${({ theme }) => theme.color.textHigh};
+  user-select: none;
 `
 
 export const FormError = styled.div`

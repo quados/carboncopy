@@ -24,4 +24,5 @@ export const ButtonContainer = styled.button<Props>`
       buttonStyle === "outlined" && `2px solid ${theme.color.activeElement}`};
     transition: 0.1s;
   }
+  user-select: none;
 `
